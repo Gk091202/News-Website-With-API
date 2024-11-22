@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewzNowTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>NewzNowTech</h1>
+
+    <div class="search-section">
+        <input type="text" id="search-input" placeholder="🔍 Search for the latest news...">
+        <button id="search-btn">Go</button>
+    </div>
+
+    <div class="categories">
+        <button class="category-btn" data-category="general">🌐 General</button>
+        <button class="category-btn" data-category="business">💼 Business</button>
+        <button class="category-btn" data-category="technology">💻 Technology</button>
+        <button class="category-btn" data-category="sports">⚽ Sports</button>
+        <button class="category-btn" data-category="entertainment">🎬 Entertainment</button>
+    </div>
+
+    <div id="news-container"></div>
+    <div id="loader" class="hidden">Loading...</div>
+</div>
+</body>
+</html>
